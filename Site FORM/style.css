@@ -1,0 +1,65 @@
+body {
+  font-family: "Fira Sans", arial, sans-serif;
+  font-size: 1.2rem;
+}
+
+div {
+  color: #fff;
+}
+
+.formulario {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 60px auto;
+  max-width: 400px;
+  background: #a5a5a5;
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 30px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input {
+  font-size: 1.2rem;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 30px;
+}
+
+.botao,
+.radio {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+select {
+  display: block;
+  font-size: 1.2rem;
+padding: 10px;
+}
+
+.termos,
+.radio {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  /* margin: 30px auto 0 auto; */
+}
+
+.termos input,
+.radio input {
+  margin-right: 10px;
+}
+
+[required]{
+ border: 2px solid red;
+}
